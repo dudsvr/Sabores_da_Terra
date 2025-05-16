@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(45deg, #5C3D2E 10%, #2D2424 100%);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.cabeçalho
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabeçalho h1
+{
+    color: #B85C38;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-itens
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: #f8f8ff;
+    flex-wrap: wrap;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+
