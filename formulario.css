@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, #5C3D2E, #2D2424);
+  color: #f8f8ff;
+  padding: 30px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #3d2f2f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+#titulo-formulario {
+  font-family: 'Lilita One', cursive;
+  color: #E0C097;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #E0C097;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+input[type="range"] {
+  accent-color: #B85C38;
+}
+
+button {
+  background-color: #B85C38;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #a64d2c;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #E0C097;
+  background-color: #4a3c3c;
+}
